@@ -6,3 +6,4 @@ pyarrow
 plotly
 scikit-learn
 pyyaml
+huggingface_hub==1.1.5
