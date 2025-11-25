@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+duckdb
+pyarrow
+plotly
+scikit-learn
+pyyaml
