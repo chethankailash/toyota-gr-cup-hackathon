@@ -1,4 +1,14 @@
-data/raw/
-data/processed/
-*.parquet
-*.csv
+# Ignore heavy raw telemetry files
+data/raw/*
+!data/raw/.gitkeep
+
+# Allow processed parquet files (we need these!)
+!data/processed/
+!data/processed/*.parquet
+!data/processed/.gitkeep
+
+# Ignore local junk
+*.pyc
+__pycache__/
+.env
+.DS_Store
